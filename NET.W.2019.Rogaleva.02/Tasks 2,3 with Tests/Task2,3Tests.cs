@@ -24,7 +24,7 @@ namespace Tasks.Tests
         [TestMethod()]
         public void FindNextBiggerNumber_513_531returned()
         {
-            //add
+            //arrange
             int testNumber = 513;
             int expected = 531;
             //act
@@ -37,7 +37,7 @@ namespace Tasks.Tests
         [TestMethod()]
         public void FindNextBiggerNumber_2017_2071returned()
         {
-            //add
+            //arrange
             int testNumber = 2017;
             int expected = 2071;
             //act
@@ -50,7 +50,7 @@ namespace Tasks.Tests
         [TestMethod()]
         public void FindNextBiggerNumber_414_441returned()
         {
-            //add
+            //arrange
             int testNumber = 414;
             int expected = 441;
             //act
@@ -63,7 +63,7 @@ namespace Tasks.Tests
         [TestMethod()]
         public void FindNextBiggerNumber_144_414returned()
         {
-            //add
+            //arrange
             int testNumber = 144;
             int expected = 414;
             //act
@@ -76,7 +76,7 @@ namespace Tasks.Tests
         [TestMethod()]
         public void FindNextBiggerNumber_1234321_1241233returned()
         {
-            //add
+            //arrange
             int testNumber = 1234321;
             int expected = 1241233;
             //act
@@ -89,7 +89,7 @@ namespace Tasks.Tests
         [TestMethod()]
         public void FindNextBiggerNumber_1234126_1234162returned()
         {
-            //add
+            //arrange
             int testNumber = 1234126;
             int expected = 1234162;
             //act
@@ -102,7 +102,7 @@ namespace Tasks.Tests
         [TestMethod()]
         public void FindNextBiggerNumber_3456432_3462345returned()
         {
-            //add
+            //arrange
             int testNumber = 3456432;
             int expected = 3462345;
             //act
@@ -115,7 +115,7 @@ namespace Tasks.Tests
         [TestMethod()]
         public void FindNextBiggerNumber_10_nullreturned()
         {
-            //add
+            //arrange
             int testNumber = 10;
             int expected = -1;
             //act
@@ -128,7 +128,7 @@ namespace Tasks.Tests
         [TestMethod()]
         public void FindNextBiggerNumber_20_nullreturned()
         {
-            //add
+            //arrange
             int testNumber = 20;
             int expected = -1;
             //act
