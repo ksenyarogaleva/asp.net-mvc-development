@@ -11,26 +11,13 @@ namespace BankAccount
     [Serializable]
     internal class Storage
     {
-        private static string pathToStorage;
+        private static string pathToStorage="test.txt";
         private static List<BankAccount> allBills = new List<BankAccount>();
 
         /// <summary>
         /// Gets property for list of bank accounts.
         /// </summary>
         public static List<BankAccount> AllBills => allBills;
-
-        /// <summary>
-        /// Initializes a new instance of the <see cref="Storage"/> class.
-        /// </summary>
-        public Storage()
-        {
-            Console.WriteLine("Enter the path to storage.");
-            pathToStorage = Console.ReadLine();
-            if (string.IsNullOrEmpty(pathToStorage))
-            {
-                throw new ArgumentException("Path to the storage can't be null or empty.");
-            }
-        }
 
         /// <summary>
         /// Adds bank account to the binary file.
